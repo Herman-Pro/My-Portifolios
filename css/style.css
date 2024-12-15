@@ -5,3 +5,30 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+.navlink-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links-container {
+  position: relative;
+}
+.links {
+  background-color: aquamarine;
+  padding: 0.4em 0.6em;
+  margin: 0 0.1em;
+}
+.links-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.links-container ul li {
+  list-style: none;
+}
+
+.sublinks-container {
+  display: none;
+  position: absolute;
+}
