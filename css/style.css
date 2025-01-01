@@ -37,12 +37,20 @@ body {
 
 .links-container {
   position: relative;
+  align-content: center;
+  padding: 0;
 }
+
 .links {
   padding: 0.4em 0.6em;
-  background-color: #52796f;
   margin: 0 0.1em;
+  transition: all 0.5s;
 }
+
+.links:hover {
+  background-color: #52796f;
+}
+
 .links-container a {
   text-decoration: none;
   color: white;
@@ -55,6 +63,10 @@ body {
 .sublinks-container {
   display: none;
   position: absolute;
+}
+
+.icon-container {
+  align-content: center;
 }
 
 .icon {
