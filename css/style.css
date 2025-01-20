@@ -36,13 +36,12 @@ body {
 }
 
 .links-container {
-  position: relative;
   align-content: center;
   padding: 0;
 }
 
 .links {
-  padding: 0.4em 0.6em;
+  padding: 0.7em 0.8em;
   margin: 0 0.1em;
   transition: all 0.5s;
 }
@@ -60,9 +59,37 @@ body {
   list-style: none;
 }
 
+.surv-link {
+  position: relative;
+  display: inline-block;
+  padding: 0.7em 0.8em;
+  transition: all 0.5s;
+}
+
 .sublinks-container {
   display: none;
   position: absolute;
+  margin-top: 0.7em;
+  background-color: #465e5f;
+  padding: 0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.sublinks-container a {
+  padding: 12px 18px;
+  text-decoration: none;
+  display: block;
+  transition: all 0.5s;
+}
+
+.sublinks-container a:hover {
+  background-color: #52796f;
+}
+
+.surv-link:hover .sublinks-container {
+  display: block;
 }
 
 .icon-container {
@@ -70,22 +97,23 @@ body {
 }
 
 .icon {
+  text-decoration: none;
   font-size: 1.5em;
   padding-right: 2px;
   padding-left: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+  color: white;
 }
 
 .banniere-content {
   display: flex;
-
-  margin-top: 2.5em;
 }
 
 .image-profile {
   width: 27em;
   height: 30em;
   object-fit: cover;
-  border-radius: 20px;
   margin-left: 7.4em;
 }
 
