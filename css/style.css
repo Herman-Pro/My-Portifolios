@@ -74,3 +74,22 @@ body {
   padding-right: 2px;
   padding-left: 2px;
 }
+
+.banniere-content {
+  display: flex;
+
+  margin-top: 2.5em;
+}
+
+.image-profile {
+  width: 27em;
+  height: 30em;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-left: 7.4em;
+}
+
+.profile-info {
+  margin-left: 2.4em;
+  margin-right: 5em;
+}
